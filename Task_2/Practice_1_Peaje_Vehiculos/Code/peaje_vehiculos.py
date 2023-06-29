@@ -33,7 +33,7 @@ while i < cant_vehics:
                 disc = 15
                 amount_vehic = calc_volunt_amount(amount_vehic, disc)
       
-      print(f"Este vehículo paga de peaje: ₡{amount_vehic}\n")
+      print(f"\n- Este vehículo paga de peaje: ₡{amount_vehic}\n")
 
       total_earn = calc_total(total_earn, amount_vehic)
 
@@ -41,8 +41,8 @@ while i < cant_vehics:
 
 total_avg = calc_avg(total_earn, i)
 
-print(f'El total de ingresos es de: {total_earn}\n')
-print(f'El promedio total es de: {total_avg}\n')
+print(f'- Ingresos - Total:    ₡{total_earn}')
+print(f'- Ingresos - Promedio: ₡{total_avg}\n')
 print(f'Gracias por utilizar el sistema de peajes.\n')
 
 

@@ -1,0 +1,340 @@
+<mxfile host="65bd71144e">
+    <diagram id="NVoQuto0tyrQBgJS1qF8" name="Page-1">
+        <mxGraphModel dx="158" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="76" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1429.4038461538462" y="95" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1392.25" y="25" width="75" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Variable que almacena el mensaje que se le envía al usuario indicando que la pesca Si es permitida y otros datos" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1500" y="1080" width="178" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Variable que contiene el rango de la cantidad de Camarón Jumbo por Libra" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="140" width="280" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="17" target="102" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1616" y="509"/>
+                        </Array>
+                        <mxPoint x="1497" y="500" as="sourcePoint"/>
+                        <mxPoint x="1627" y="551" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="17" target="85" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1300" y="509"/>
+                        </Array>
+                        <mxPoint x="1367" y="509.5" as="sourcePoint"/>
+                        <mxPoint x="1300" y="549.04" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;br&gt;La cant de cam &lt;br&gt;está en el rango de Jumbo?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1367" y="456" width="126" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="85" target="99" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1516" y="598"/>
+                        </Array>
+                        <mxPoint x="1363" y="595.5" as="sourcePoint"/>
+                        <mxPoint x="1516" y="702" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="85" target="87" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1232" y="590" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1170" y="598"/>
+                        </Array>
+                        <mxPoint x="1172" y="635" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="87" target="90" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1360" y="687"/>
+                            <mxPoint x="1360" y="710"/>
+                        </Array>
+                        <mxPoint x="1238" y="680" as="sourcePoint"/>
+                        <mxPoint x="1360" y="723" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="La&lt;br&gt;cant de cam es &lt;br&gt;mayor a 55&lt;br&gt;o&lt;br&gt;menor que 1?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="968" y="710" width="160" height="131" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="83" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1429.35" y="435" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="34" target="103" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1250" y="776"/>
+                        </Array>
+                        <mxPoint x="1112" y="769" as="sourcePoint"/>
+                        <mxPoint x="1267" y="814" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="34" target="89" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="968" y="776.5" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="925" y="775"/>
+                        </Array>
+                        <mxPoint x="930" y="813" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="89" target="103" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="930" y="854" as="sourcePoint"/>
+                        <mxPoint x="1267" y="854" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="925" y="885"/>
+                            <mxPoint x="1090" y="885"/>
+                            <mxPoint x="1250" y="885"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="90" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1090" y="885" as="sourcePoint"/>
+                        <mxPoint x="1360" y="763" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1090" y="905"/>
+                            <mxPoint x="1360" y="905"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="104" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1250" y="905" as="sourcePoint"/>
+                        <mxPoint x="1516" y="804" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1250" y="925"/>
+                            <mxPoint x="1516" y="925"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" target="106" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1384" y="925" as="sourcePoint"/>
+                        <mxPoint x="1627" y="665" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1384" y="950"/>
+                            <mxPoint x="1616" y="950"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="50" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1430" y="950" as="sourcePoint"/>
+                        <mxPoint x="1430" y="975" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1430" y="970"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="50" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1589" y="1020"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="Es la pesca&lt;br&gt;permitida?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1364" y="975" width="132" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="50" target="58" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1364" y="1020" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1317" y="1020"/>
+                            <mxPoint x="1200" y="1020"/>
+                        </Array>
+                        <mxPoint x="1200" y="1085" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1275" y="991" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="58" target="63" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1040" y="1130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" value="if&lt;br&gt;valid_value&lt;br&gt;!=&lt;br&gt;True" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1134" y="1085" width="132" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1266" y="1130" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1360" y="1130"/>
+                        </Array>
+                        <mxPoint x="1359" y="1190" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="63" value="Variable que almacena el mensaje que se le envía al usuario indicando que el dato ingresado está incorrecto" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="951" y="1190" width="178" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="endArrow=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="63" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1040" y="1265" as="sourcePoint"/>
+                        <mxPoint x="1359" y="1265" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1040" y="1296"/>
+                            <mxPoint x="1200" y="1296"/>
+                            <mxPoint x="1360" y="1296"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1197.25" y="1297" as="sourcePoint"/>
+                        <mxPoint x="1467.25" y="1175" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1197.25" y="1317"/>
+                            <mxPoint x="1590" y="1317"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1515" y="991" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="edgeStyle=none;html=1;" parent="1" source="68" target="70" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="Retorno del mensaje al flujo principal" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="1315" y="1347" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="68" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1430" y="1317" as="sourcePoint"/>
+                        <mxPoint x="1320" y="987" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1392.5" y="1410" width="75" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="edgeStyle=none;html=1;" parent="1" source="71" target="74" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="Variable que contiene el rango de la cantidad de Camarón Mediano por Libra" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="190" width="280" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="edgeStyle=none;html=1;" parent="1" source="74" target="75" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="Variable que contiene el rango de la cantidad de Camarón Chico por Libra" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="240" width="280" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="edgeStyle=none;html=1;" parent="1" source="75" target="81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Variable que contiene el rango de la cantidad de Camarón Extra Chico por Libra" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="290" width="280" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="edgeStyle=none;html=1;" parent="1" source="76" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="Lectura de la cantidad de camarones" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="1315" y="95" width="230" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="edgeStyle=none;html=1;" parent="1" source="81" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Variable que contiene valor de falso que determina que la pesca No es permitida" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="340" width="280" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="Variable que contiene valor de verdadero que determina si la cantidad ingresada es válida o no&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1290" y="390" width="280" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="&lt;br&gt;La cant de cam &lt;br&gt;está en el rango de Mediano?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1237" y="545" width="126" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="87" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1106" y="679" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="1048" y="687"/>
+                        </Array>
+                        <mxPoint x="1046" y="724" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="87" value="&lt;br&gt;La cant de cam &lt;br&gt;está en el rango de Pequeño?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1107" y="634" width="126" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Variable que almacena el valor del tipo de acuerdo al rango de camarón&amp;nbsp;por Libra" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="860" y="804" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="Variable que almacena el valor del tipo de acuerdo al rango de camarón&amp;nbsp;por Libra" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1295" y="724" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1320" y="480" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1525" y="480" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1190" y="570" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1414.25" y="570" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1060" y="660" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1284.25" y="660" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="928" y="750" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="750" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="99" target="104" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1516" y="768" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="99" value="Variable que almacena el valor del tipo de acuerdo al rango de camarón&amp;nbsp;por Libra" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1451" y="715" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="" style="edgeStyle=none;html=1;" parent="1" source="102" target="106" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Variable que almacena el valor del tipo de acuerdo al rango de camarón&amp;nbsp;por Libra" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1551" y="540" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="Variable que contiene valor de falso que determina si la cantidad ingresada es válida o no&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1180" y="804" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Variable que contiene valor de falso que determina que la pesca Si es permitida" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="814" width="152" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Variable que contiene valor de falso que determina que la pesca Si es permitida" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="1540" y="634" width="152" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Variable que almacena el mensaje que se le envía al usuario indicando que la pesca No es permitida y otros datos" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+                    <mxGeometry x="1271" y="1190" width="178" height="75" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
