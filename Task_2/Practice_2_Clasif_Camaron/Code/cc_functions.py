@@ -18,6 +18,15 @@ import tkinter.messagebox as tkmb
 from tkinter import Button
 import ctypes
 
+def menu():
+    """
+    function: menu()
+    description: Muestra en pantalla las opciones de menu
+    """
+    print("\nMenu")
+    print("[1] Ingresar una nueva pesca")
+    print("[0] Salir del programa\n")
+
 def init_win32(add_fishing):
     """
     function: init_win32()
@@ -40,7 +49,6 @@ def init_win32(add_fishing):
     else:
         message = "Valor incorrecto. Trate nuevamente."
         ctypes.windll.user32.MessageBoxW(0, message, "Error",  ICON_STOP)
-
 
 def init_MacOs(add_fishing):
     """
@@ -72,17 +80,6 @@ def init_MacOs(add_fishing):
     else:
         message = "Valor incorrecto. Trate nuevamente."
         tkmb.showinfo(title='Información', message=message, icon='warning')
-    
-
-
-def menu():
-    """
-    function: menu()
-    description: Muestra en pantalla las opciones de menu
-    """
-    print("\nMenu")
-    print("[1] Ingresar una nueva pesca")
-    print("[0] Salir del programa\n")
 
 def validate_fishing(cant_shrimp:int) -> str:
     """
@@ -90,8 +87,8 @@ def validate_fishing(cant_shrimp:int) -> str:
     description: Valida la información y determina el resultado
     params: validate_fishing
     """
-    jumbo = range(1, 18)
-    medium = range (18, 39)
+    jumbo = range(1, 19)
+    medium = range (19, 39)
     small = range (39, 56)
     shrimp_in = False
     valid_value = True
