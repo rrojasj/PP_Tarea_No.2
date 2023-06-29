@@ -41,14 +41,23 @@ def init_win32(add_fishing):
 
             menu()
             add_fishing = int(input("Seleccione una opción: "))
+            init_MacOs(add_fishing)
 
     elif add_fishing == 0:
         message = "Gracias por utilizar el sistema de selección de pesca."
         ctypes.windll.user32.MessageBoxW(0, message, "Info",  ICON_INFO)
 
+        menu()
+        add_fishing = int(input("Seleccione una opción: "))
+        init_MacOs(add_fishing)
+
     else:
         message = "Valor incorrecto. Trate nuevamente."
         ctypes.windll.user32.MessageBoxW(0, message, "Error",  ICON_STOP)
+
+        menu()
+        add_fishing = int(input("Seleccione una opción: "))
+        init_MacOs(add_fishing)
 
 def init_MacOs(add_fishing):
     """
@@ -65,21 +74,30 @@ def init_MacOs(add_fishing):
             timeout=5000
             root = tk.Tk()
             root.withdraw()
-            root.after(timeout, root.destroy)
+            root.after(timeout, root.bind_all)
             
             tkmb.showinfo(title='Info Box', message=msg, icon='info')
             
 
             menu()
             add_fishing = int(input("Seleccione una opción: "))
+            init_MacOs(add_fishing)
 
     elif add_fishing == 0:
-        farewell = "Gracias por utilizar el sistema de selección de pesca."
+        farewell = "\nGracias por utilizar el sistema de selección de pesca. \nHasta Pronto!!\n"
+        print(farewell)
         tkmb.showinfo(title='Info Box', message=farewell, icon='info')
+        menu()
+        add_fishing = int(input("Seleccione una opción: "))
+        init_MacOs(add_fishing)
 
     else:
-        message = "Valor incorrecto. Trate nuevamente."
+        message = "\nIMPORTANTE - Valor incorrecto. Trate nuevamente.\n"
+        print(message)
         tkmb.showinfo(title='Información', message=message, icon='warning')
+        menu()
+        add_fishing = int(input("Seleccione una opción: "))
+        init_MacOs(add_fishing)
 
 def validate_fishing(cant_shrimp:int) -> str:
     """
