@@ -15,7 +15,7 @@ ICON_STOP = 0x10
 
 import tkinter as tk
 import tkinter.messagebox as tkmb
-from tkinter import Button
+# from tkinter import Button
 import ctypes
 
 def menu():
@@ -36,20 +36,21 @@ def init_win32(add_fishing):
     if add_fishing == 1:
         while add_fishing == 1:
             cant_shrimp = int(input("\nIngrese la cantidad de camarones por Libra:\n"))
-            msg = validate_fishing(cant_shrimp)
-            print(msg)
+            message = validate_fishing(cant_shrimp)
+            print(message)
+            ctypes.windll.user32.MessageBoxW(0, message, "Info",  ICON_INFO)
 
             menu()
             add_fishing = int(input("Seleccione una opción: "))
-            init_MacOs(add_fishing)
+            init_win32(add_fishing)
 
     elif add_fishing == 0:
-        message = "Gracias por utilizar el sistema de selección de pesca."
+        message = "Gracias por utilizar el sistema de selección de pesca. \nHasta Pronto!!"
         ctypes.windll.user32.MessageBoxW(0, message, "Info",  ICON_INFO)
 
         menu()
         add_fishing = int(input("Seleccione una opción: "))
-        init_MacOs(add_fishing)
+        init_win32(add_fishing)
 
     else:
         message = "Valor incorrecto. Trate nuevamente."
@@ -57,7 +58,7 @@ def init_win32(add_fishing):
 
         menu()
         add_fishing = int(input("Seleccione una opción: "))
-        init_MacOs(add_fishing)
+        init_win32(add_fishing)
 
 def init_MacOs(add_fishing):
     """
